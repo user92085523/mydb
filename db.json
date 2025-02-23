@@ -1,0 +1,66 @@
+{
+    "a.db": {
+        "Roles": {
+            "col_total_size": 64,
+            "columns": [
+                "role_id",
+                "role"
+            ],
+            "index_digit": 8,
+            "primary_key": "role_id",
+            "sizes": [
+                32,
+                32
+            ],
+            "table_num": 2
+        },
+        "Users": {
+            "col_total_size": 72,
+            "columns": [
+                "user_id",
+                "name",
+                "password"
+            ],
+            "index_digit": 8,
+            "primary_key": "user_id",
+            "sizes": [
+                8,
+                32,
+                32
+            ],
+            "table_num": 1
+        }
+    },
+    "b.db": {
+        "Table1": {
+            "col_total_size": 32,
+            "columns": [
+                "col1",
+                "col2"
+            ],
+            "index_digit": 8,
+            "primary_key": "",
+            "size": [
+                16,
+                16
+            ],
+            "table_num": 1
+        },
+        "Table2": {
+            "col_total_size": 80,
+            "columns": [
+                "col1",
+                "col2",
+                "col3"
+            ],
+            "index_digit": 8,
+            "primary_key": "",
+            "size": [
+                16,
+                32,
+                32
+            ],
+            "table_num": 2
+        }
+    }
+}
