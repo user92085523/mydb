@@ -105,7 +105,6 @@ def encode_to_binary(codepoint, bytesize):
     bits_b = 0x0
     for i in reversed(range(bytesize)):
         bits_a += codepoint << i * 2 & 0x3f << i * 8
-        print(i)
         if i + 1 == bytesize:
             bits_b = (0x1 << bytesize) - 1 << 8 - bytesize + i * 8
             continue
